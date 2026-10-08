@@ -1,0 +1,52 @@
+Attached Element Context from Integrated Browser
+
+Element: article.certificate-card.reveal.visible
+
+URL: file:///e%3A/Video%20Editing%20Portfolio%20Website/public_html/Video%20Editing.html
+
+HTML Path: main.site-main > section.section.wrap > article.certificate-card.reveal.visible
+
+Outer HTML:
+```html
+<article class="certificate-card reveal visible"><div class="kicker">Course Certificate</div><h3>DaVinci Resolve</h3><p>Successfully completed the TutEdude DaVinci Resolve course.</p><span class="meta">Completed 1 October 2026 · Certificate ID: TD-DHAN-DR-0717</span><a class="button primary" href="images/Certificates/Screenshot%202026-10-01%20135929.png" target="_blank" rel="noopener">View Certificate <span>↗</span></a></article>
+```
+
+Dimensions:
+- top: 297px
+- left: 20px
+- width: 480px
+- height: 219px
+
+CSS:
+```css
+* { box-sizing: border-box; margin: 0; padding: 0; }
+.certificate-card { width: min(100%, 480px); padding: 26px; border-radius: 22px; background: var(--sage); }
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.reveal.visible { opacity: 1; transform: none; }
+
+/* Pseudo-elements */
+::selection { background: var(--pink); color: var(--ink); }
+
+/* Inherited */
+body { color: var(--ink); font-family: "Poppins", sans-serif }
+
+/* Resolved values */
+margin: 0px;
+padding: 26px;
+border-radius: 22px;
+box-sizing: border-box;
+color: rgb(29, 32, 38);
+display: block;
+font-family: Poppins, sans-serif;
+height: 218.8px;
+opacity: 1;
+transform: none;
+unicode-bidi: isolate /*UA*/;
+width: 480px;
+
+/* CSS variables */
+--sage: #e2ece9;
+--pink: #fad2e1;
+--ink: #1d2026;
+--ease: cubic-bezier(.2,.8,.2,1);
+```
